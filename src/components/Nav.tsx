@@ -11,7 +11,7 @@ export function Nav() {
 
   return (
     <header className="site-nav" data-scrolled={scrolled}>
-      <a className="brand" href="#top" aria-label={`${brand.name}, back to the top`}>
+      <a className="brand" href="#top">
         <Mark />
         <span className="brand__short">{brand.short}</span>
         <span className="brand__full">{brand.name}</span>

@@ -8,7 +8,7 @@ export function Evidence() {
   return (
     <section id="evidence" className="chapter chapter--wide" aria-labelledby="evidence-title">
       <div className="chapter__inner chapter__inner--single">
-        <header className="section-head">
+        <div className="section-head">
           <Reveal>
             <p className="eyebrow">{evidence.eyebrow}</p>
           </Reveal>
@@ -16,7 +16,7 @@ export function Evidence() {
           <Reveal delay={0.1}>
             <p className="prose prose--wide">{evidence.body}</p>
           </Reveal>
-        </header>
+        </div>
 
         <ul className="evidence-grid">
           {evidence.inPlace.map((item, i) => (
